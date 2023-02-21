@@ -4,7 +4,7 @@ const pool = require('../db')
 
 
 router.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.render('index')
 })
 
 router.get('/add', (req, res, next) => {

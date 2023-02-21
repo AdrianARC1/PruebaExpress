@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <%- include('partials/navegacion.ejs') %> 
+
     <form action="/update/<%= persona.id %>" method="post">
 
        <input type="text" name="DNI" placeholder="DNI" value="<%= persona.DNI %>">
